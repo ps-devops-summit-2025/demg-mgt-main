@@ -85,4 +85,7 @@ variable "virtual_machine_sku" {
 
 variable "tags" {
   type = map(string)
+  default = {
+    "owner" = "steven"
+  }
 }
